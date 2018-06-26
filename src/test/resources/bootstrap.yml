@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: hague-support-pocs
+  profiles:
+    active: test,mock
+  cloud:
+    config:
+      enabled: false
+  datasource:
+    data: classpath:/mock_data.sql
